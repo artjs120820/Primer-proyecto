@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.container {
+  text-align: center;
+  margin-top: -20px;
+}
+
+.title {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 70px; /* Ajusta el margen inferior del título */
+}
+
+.subtitle {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: -50px; /* Ajusta el margen superior del subtítulo */
+  margin-bottom: 100px; /* Ajusta el margen inferior del subtítulo */
+}
+/* Agregar una clase para centrar horizontalmente las columnas y el botón */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 50px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.form-container {
+  display: flex; /* Cambiamos a flexbox */
+  justify-content: space-between; /* Espacio igual entre las columnas */
+  align-items: center; /* Centra el contenido verticalmente */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan si es necesario */
+  text-align: left;
+  padding: 50px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.columna-subtitulo {
+  font-size: 16px;
+  color: purple;
+  font-weight: bold;
+  padding: 15px;
+  margin-left: 0; /* Ajusta el margen izquierdo a 0 */
+}
+.column {
+  flex: 1;
+  margin-right: 200px; /* Espacio entre las columnas */
+}
+
+.input-container {
+  margin-bottom: 20px;
+  position: relative;
+}
+.forgot-password-container {
+  text-align: right; /* Alinea el texto "Olvidé mi contraseña" a la derecha */
+  margin-top: -15px; /* Margen superior */
+  margin-right: -40px; /* Margen derecho para alejarlo de la casilla */
+}
+.column-title {
+  color: purple;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.forgot-password {
+  color: purple;
+  font-size: 12px;
+  margin-bottom: 10px; /* Margen inferior para separar del botón */
+}
+.form-label {
+  font-weight: 400;
+  font-size: 12px;
+  display: block;
+  background-color: #f0f0f0;
+  padding: 0 10px;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  z-index: 1;
+  color: purple;
+}
+
+.form-input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 2px solid purple;
+  border-radius: 5px;
+  padding-left: 30px;
+  outline: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.register-button,
+.login-button {
+  color: purple;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  padding: 20px 40px; /* Ajusta el padding horizontal para hacer el fondo más largo */
+  border-radius: 30px;
+  transition: background-color 0.3s, color 0.3s;
+  width: auto;
+  margin-right: 10px; /* Mueve el botón un poco a la derecha en estado normal */
+}
+
+.register-button:hover,
+.login-button:hover {
+  background-color: #E8DEF8;
+  color: black;
+  margin-right: 10px; /* Restablece el margen derecho en estado hover */
+}

@@ -1,0 +1,154 @@
+/* Estilo para el contenedor con clase "seccion-igual-1" */
+
+
+/* Estilo para el título dentro de "seccion-igual-1" */
+.titulo_seccion {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+/* Estilo para el contenedor de cartas con clase "cartas_fila" */
+.cartas_fila {
+    display: flex;  /* Alinear las cartas en la misma línea */
+    margin-bottom: 3%;
+}
+
+/* Estilo para las cartas con clase "carta" dentro de "cartas_fila" */
+.cartas_fila .carta {
+    width: calc(50% - 10px);
+    height: 150px;
+    border: 2px solid grey;
+    margin-right: 20px;    /* Espacio entre las cartas */
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #FEF7FF;
+}
+
+.carta_off {
+    width: calc(50% - 10px);
+    height: 150px;
+    border: 2px solid grey;
+    margin-right: 20px;    /* Espacio entre las cartas */
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+}
+
+/* Estilo para el contenido de las cartas con clase "contenido" dentro de "carta" */
+.cartas_fila .carta .contenido {
+    padding: 20px;
+    padding-top: auto;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 65%;
+}
+.cartas_fila .carta_off .contenido {
+    padding: 20px;
+    padding-top: auto;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 65%;
+}
+
+.cartas_fila .carta .imagen {
+    width: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+
+}
+.cartas_fila .carta_off .imagen {
+    width: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+
+}
+
+/* Estilo para la imagen dentro del contenedor de imagen */
+.cartas_fila .carta .imagen img.icono_default {
+    max-width: 150px;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+/* Estilo para la imagen dentro del contenedor de imagen */
+.cartas_fila .carta_off .imagen img.icono_default {
+    max-width: 150px;
+    max-height: 100%;
+    border-radius: 10px;
+}
+/* Estilo para el enlace "Ver todo" dentro de "seccion-igual-1" */
+.seccion-igual-1 button {
+    position: relative;
+    /* Establece la posición absoluta */
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-size:x-large;
+    bottom: 0%;
+    padding-right: 2%;
+    float: right;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.Fecha_card {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.User_card{
+    flex: '1';
+}
+
+.Fecha_card{
+    flex: '1';
+    text-align: 'right';
+    margin-top: inherit;
+    margin-bottom: initial;
+}
+
+.ultimas_reservas_pag_block {
+    flex-grow: 1;
+    width: 1550px;
+    background-color: #e1ccf0;
+    margin-bottom: 30px; /* Aumenta el margen inferior para extender el espacio */
+    padding: 50px;
+    max-height: 650px; /* Establece una altura mínima igual a la altura de la ventana del navegador */
+    overflow-y: auto;
+
+  }
+
+.Titulo_card{
+    text-overflow: ellipsis;
+    max-width: 100%;
+    margin-top: 8px;
+}
+
+.Titulo_card > h2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    
+  }
+
+.User_Card{
+    font-weight: bold;
+}

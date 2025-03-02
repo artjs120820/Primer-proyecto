@@ -1,0 +1,91 @@
+/* Estilo del fondo gris transparente */
+.confirmacion-fondo-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fondo gris transparente */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    /* Un valor alto para estar por encima de otros elementos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo del cuadro rosa */
+.confirmacion-22 {
+    position: relative;
+    border-radius: 10px;
+    background: var(--m-3-sys-light-surface-container-high, #ECE6F0);
+    width: 400px;
+    height: 300px;
+    /* Ajusta el alto según tus necesidades */
+    padding: 20px;
+    /* Espacio interior */
+    display: flex;
+    flex-direction: column;
+    /* Apilar elementos verticalmente */
+    align-items: left;
+    text-align: left;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.ok{
+    position: absolute;
+    bottom:  50px;
+    right:  30px;
+    padding: 30px 30px;
+    border:    none;
+    cursor:  pointer;
+    color:  #6750A4;
+    background-color:  #ECE6F0;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5px;
+}
+
+.seccion-confirmacion-2 {
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    text-align: center;
+    overflow: hidden;
+}
+
+.seccion-confirmacion-2 h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #6750A4;
+}
+
+.buttonfecha {
+    border-radius: 30px;
+    border: none;
+    background: var(--m-3-sys-light-primary, #6750A4);
+    color: #ffffff; /* Color del texto del botón */
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+/* Estilos para el párrafo que muestra la fecha seleccionada */
+.seccion-confirmacion-2 p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.MensajeNoDisp{
+    font-family: Roboto;
+    color: blue;
+}

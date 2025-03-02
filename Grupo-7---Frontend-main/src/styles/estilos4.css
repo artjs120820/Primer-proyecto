@@ -1,0 +1,127 @@
+.seccion-resultados-alum {
+    margin: 0px;
+    width: 1600px;
+    height: 400px;
+    background-color: #e1ccf0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-input-4 {
+    width: 70%;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding-left: 30px;
+    outline: none;
+    background-color: #e1ccf0;
+}
+
+.seccion-resultados-alum {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Estilos para la casilla de búsqueda */
+.casilla-para-escribir {
+    width: 280%;
+    /* Ajusta el ancho según tus necesidades */
+}
+
+.checkbox-boton {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Establece la posición en relativo para los elementos internos */
+  }
+
+.checkbox-titulo {
+    font-family: Roboto;
+    color: #6750A4;
+}
+.chexboxx{
+    display: block;
+}
+/* Estilos para los checkboxes */
+.chexboxx input[type="checkbox"] {
+    margin-bottom: 20px; /* Espaciado entre los checkboxes (opcional) */
+    border: 22332px solid #e1ccf0; /* Borde de 2px de ancho y color morado */
+    padding: 5px; /* Espaciado interno para dar espacio al cuadro del checkbox */
+  }
+
+
+/* Estilos para los botones */
+.botones {
+    position: absolute; /* Establece la posición en absoluta para la sección de botones */
+   margin-top: 330px;
+   margin-left: 130px;
+  }
+/* Estilos para los botones */
+.boton-limpiar,
+.boton-buscar {
+  color: purple;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  padding: 20px 40px; /* Ajusta el padding horizontal para hacer el fondo más largo */
+  border-radius: 30px;
+  transition: background-color 0.3s, color 0.3s;
+  width: auto;
+  margin-right: 10px; /* Mueve el botón un poco a la derecha en estado normal */
+}
+
+/* Estilo cuando el cursor está sobre el botón */
+.boton-limpiar:hover,
+.boton-buscar:hover {
+  background-color: purple; /* Fondo morado cuando el cursor está sobre el botón */
+  color: white; /* Texto blanco cuando el cursor está sobre el botón */
+}
+
+
+.paginacion-2 {
+    display: flex;
+    justify-content: flex-end;
+    /* Coloca la paginación en la parte derecha */
+    margin-top: 130px;
+    /* Agrega espacio superior */
+}
+
+/* Estilos para los botones de paginación */
+.paginacion-2 button {
+    margin-left: 10px;
+    /* Espacio entre los botones */
+}
+
+.paginacion-2 button {
+    border: none;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.seccion-info-busqueda {
+    display: flex; /* Utilizamos flexbox para alinear elementos horizontalmente */
+    justify-content: space-between; /* Coloca el título a la izquierda y el botón a la derecha */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+
+  
+  .seccion-info-busqueda button {
+    margin-top: -10px;
+    margin-right: 20px;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    color: #6750A4;
+    border-radius: 20px;
+    padding: 15px;
+    border-color: #6750A4 ;
+  }
+  .titulo h3{
+    margin-left: 0px;
+    margin-top: -30px;
+    font-size: 12px;
+  }

@@ -1,0 +1,254 @@
+.icono {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    /* Espacio entre la imagen y la etiqueta de entrada */
+    position: absolute;
+    /* Cambia a posición absoluta */
+    top: 30px;
+    left: -9px;
+}
+
+.icono img {
+    width: 22px;
+    /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 22px;
+}
+
+.casilla-para-escribir {
+    /* Estilo para tu casilla de escritura */
+    width: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    /* Cambia la dirección a row para alinear elementos horizontalmente */
+    align-items: center;
+    position: relative;
+}
+
+.form-label-3 {
+    font-weight: 400px;
+    font-size: 16px;
+    font-family: Roboto;
+    display: block;
+    background-color: #f0f0f0;
+    padding: 2px;
+    position: absolute;
+    /* Cambia a posición absoluta */
+    top: 11px;
+    left: 35px;
+    z-index: 1;
+    color: #6750A4;
+    font-weight: bold;
+}
+
+.form-input-3 {
+    width: 900px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding-left: 30px;
+    outline: none;
+    background-color: #f0f0f0;
+}
+
+.linea2 {
+    border-top: 1px solid #ccc;
+    margin: 0px;
+    width: 1600px;
+    height: 1px;
+    /* Aumenta la altura de la línea */
+    background-color: #e1ccf0;
+    margin-top: -20px;
+    /* Cambia el margen superior para agregar espacio arriba de la línea */
+    margin-bottom: 20px;
+    /* Cambia el margen inferior para agregar espacio debajo de la línea */
+}
+
+.seccion-rectangular-gris {
+    background-color: f0f0f0;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    /* Espacio entre los bloques */
+    gap: 100px; 
+    flex-wrap: wrap;
+    /* Ajuste de envoltura para bloques adicionales */
+}
+
+.seccion-titulo-resultados button {
+    background-color: #6750A4;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 40px;
+    border: none;
+}
+.seccion-titulo-resultados23 button {
+    background-color: #6750A4;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 40px;
+    border: none;
+}
+
+
+
+
+.bloque-libro {
+    position: relative;
+    display: flex;
+    /* Muestra los bloques en línea horizontal */
+    flex-direction: column;
+    border: 2px solid purple;
+    /* Borde morado */
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    /* Ajusta el ancho según tus necesidades */
+    border-radius: 5%;
+}
+
+.titulo-libro {
+    background-color: #f0f0f0;
+    height: 135px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.titulo-libro h3 {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.imagenes-libro {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icono-xd {
+    width: 105%;
+    /* Ancho de la imagen de /iconoxd.png */
+    height: auto;
+    margin-bottom: 10px;
+    /* Espacio entre las imágenes */
+}
+
+.portada-libro {
+    width: 200px;
+    /* Ancho de la imagen de portada */
+    height: 237px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.informacion-libro {
+    margin-top: 10px;
+    /* Espacio entre la información y las imágenes */
+}
+
+.paginacion {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 350px;
+    /* Coloca la paginación en la parte derecha */
+    /* Agrega espacio superior */
+}
+
+/* Estilos para los botones de paginación */
+
+
+.bloque-libro button {
+    background-color: #6750A4;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 10px;
+    width: 110px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    /* Centra el botón horizontalmente */
+    position: relative;
+    top: 0px;
+    left: 130px;
+    cursor:  pointer;
+}
+
+.paginacion button {
+    border: none;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+.opciones-3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: none;
+    border: none;
+    color: #6750A4;
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 16px;
+    outline: none;
+    transition: color 0.3s;
+    width: 90%;
+    color: 6750A4;
+    /* Color del texto morado en el botón activo */
+    border-bottom: 4px solid #6750A4;
+    /* Línea inferior morada en el botón activo */
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+.confirmacion-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Fondo gris transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    /* Coloca la confirmación por encima de todo */
+}
+
+.confirmacion {
+    background: rgb(255, 255, 255);
+    /* Fondo rosa */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 1000;
+    /* Asegura que la confirmación esté por encima del fondo */
+}
+
+.confirmacion h2 {
+    font-family: Roboto;
+}
+
+.confirmacion h3 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.confirmacion button {
+    background: #fff;
+    /* Fondo blanco para el botón OK */
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #6750A4;
+}

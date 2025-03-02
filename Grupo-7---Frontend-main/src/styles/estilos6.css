@@ -1,0 +1,145 @@
+.titulo h3{
+    margin: 1px;
+    font-size: 13px;
+}
+
+.form-label-9 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    display: block;
+    background-color: #f0f0f0;
+    padding: 0 10px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    z-index: 1;
+    color: purple;
+  }
+  
+  .form-input-9 {
+    width: 30%;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding-left: 30px;
+    outline: none;
+  }
+  .mensajito h6{
+    font-family: Roboto;
+    font-weight: bold;
+    color: purple;
+    margin-left: 18.5px;
+    margin-top: -5px;
+  }
+  .circuloXd {
+    background-color: #b09aea;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: -50px;
+    margin-left: 475px;
+    position: relative; /* Agrega esta línea */
+    z-index: 2; /* Puedes ajustar el valor de z-index según sea necesario */
+}
+  .circuloXd img{
+    margin-top: 7px;
+    margin-left: 8px;
+  }
+  .seccionInfoLibro{
+    background-color: #e1ccf0;
+    width: 100%;
+    height: 450px;
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    justify-content: space-between; /* Distribuye el espacio horizontalmente */
+  }
+  .main-content-3 {
+    margin-left: 14vh;
+    margin-top: -10vh;
+  }
+
+  .boton-citas button {
+    background-color: #6750A4;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 60px;
+    border: none;
+}
+
+.seccionInfoLibro .infoizquierda {
+    width: 1300px;
+
+}
+
+.seccionInfoLibro .infoderecha {
+    width: 40px;
+}
+
+
+.infoderecha h4 {
+    margin: 0; /* Elimina los márgenes predeterminados de los encabezados */
+    font-weight: bold; /* Establece el texto como negrita */
+}
+/* Estilos para 'izqheader' (el encabezado del lado izquierdo) */
+/* Estilos para 'izqheader' (el encabezado del lado izquierdo) */
+.izqheader {
+    margin-bottom: 10px; /* Espacio entre el encabezado y el contenido debajo */
+    width: 100%; /* Ocupa todo el ancho disponible en 'infoizquierda' */
+}
+.izqheader p{
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 900;
+}
+
+.debajoheader {
+    display: flex; /* Mostrar elementos en una fila */
+    align-items: center; /* Centrar verticalmente los elementos */
+    width: 100%; /* Ocupa todo el ancho disponible en 'infoizquierda' */
+}
+
+/* Estilos para la descripción del libro en 'debajoheader' */
+.debajoheader p {
+    margin-left: 50px;
+    font-size: 15px;
+    font-family: Roboto;
+}
+
+/* Asegúrate de eliminar el ancho fijo en '.infoderecha' para que 'infoizquierda' ocupe el espacio restante */
+/* Estilos para 'infoderecha' */
+.infoderecha {
+    flex: 1; /* Ocupar el espacio disponible en el lado derecho */
+}
+.portada-libro-2 {
+    float: left; /* Alinea la imagen a la izquierda */
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+}
+/* Estilos para el encabezado 'Editorial' en 'infoderecha' */
+.infoderecha h8 {
+    font-weight: 10; /* Establecer el texto como negrita */
+    color:rgb(99, 99, 99);
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: Roboto;
+}
+.infoderecha p{
+    margin-left: 40px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.infochikita{
+    background-color: #ab9dd2;
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 100px;
+    padding: 10px 5px;
+    text-align: center;
+    border-radius: 14px;
+    margin-bottom: 50px;
+}
+

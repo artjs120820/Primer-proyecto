@@ -1,0 +1,62 @@
+.container-oc {
+    text-align: center;
+    margin-top: -20px;
+  }
+  
+  .title-oc {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 70px; /* Ajusta el margen inferior del título */
+  }
+  
+  .forgot-password-container {
+    text-align: right; /* Alinea el texto "Olvidé mi contraseña" a la derecha */
+    margin-top: 2px; /* Margen superior */
+    margin-right: -40px; /* Margen derecho para alejarlo de la casilla */
+    font-weight: bold;
+  }
+  
+  .forgot-password-container {
+    color: purple;
+    font-size: 12px;
+    margin-bottom: 2px; /* Margen inferior para separar del botón */
+  }
+
+ .form-label-oc{
+    color: purple;
+    font-size: 16px;
+    font-weight: bold;
+ }
+
+ .form-input-oc{
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+ }
+
+ .button-oc {
+    color: purple;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 20px 40px;
+    border-radius: 30px;
+    transition: backgroundcolor 0.3s, color 0.3s;
+    width: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+ .forgot-password-container a{
+    text-decoration: none;
+ }
+
+ .forgot-password-container a:hover{
+    color: blueviolet;
+ }

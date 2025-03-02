@@ -1,0 +1,2 @@
+BACKEND: https://github.com/Programacion-web-704/Grupo-7---Backend.git
+FRONTEND: https://github.com/Programacion-web-704/Grupo-7---Frontend.git
